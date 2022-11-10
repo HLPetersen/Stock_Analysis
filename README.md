@@ -1,10 +1,10 @@
 # <b> Refactoring Stock Analysis Code </b>
 
 ## <u>Overview of Project</u>
-This is an analysis of refactoring the VBA code to analysis stocks performance over past years. 
+This is an analysis of refactoring the VBA code of a stock performance analysis over past years. The original code runs in about half a second but does not analyze   
 
 ### Purpose
-Does refactoring the code make it run more quickly? 
+Does refactoring the code make it run more quickly? The original code ran at 0.4960938 seconds and 0.484375 seconds to analyze the %%%%%% rows of stock information for $$$$ stocks in 2017 and 2018 respectiviely. Those times are acceptable for a smaller analysis, but if the analysis needs to be expanded to the 7,290 stocks listed on the New York Stock Exchange or more, (https://www.nyse.com/listings_directory/stock), a quicker process is needed.   
 
 ## <u>Analysis and Challenges</u>
 The original data set contained 4,114 campaigns. 50 of the campaigns were live at the moment of data capture, so they were excluded from the analysis. Of those, 1,393 were under the parent category of "Theater" and 1,066 under the subcategory "plays". 
